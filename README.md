@@ -1,0 +1,2 @@
+# JavaLearning4NewFeature
+主要是为了学习和测试一些java的新特性，也包括一些其它方面的测试
