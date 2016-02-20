@@ -5,7 +5,7 @@ package com.utils;
  * Created by zhihaoguo on 16/2/19.
  * zhihao.guo@dianping.com
  * 奇特的一生,为的是写成timelogger
- * test 
+ * test
  */
 public class GenerateTimeLog {
     public static void main(String[] args) {
