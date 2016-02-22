@@ -9,11 +9,22 @@ package com.utils;
  */
 public class GenerateTimeLog {
     public static void main(String[] args) {
-        for (int i = 7 ; i < 24; i++) {
-            System.out.println(i+":"+"00--"+i+":"+"15");
+        generateTimelog(7, 24);
+    }
+
+    private static void generateTimelog(int start, int end) {
+        for (int i = start ; i < end; i++) {
+            String suffix[]= getSuffixString();
+            String prefix = i+"";
+            String prefix_to  = (i+1)+"";
+            System.out.println(prefix+":"+"00--"+prefix+":"+"15");
             System.out.println(i+":"+"15--"+i+":"+"30");
             System.out.println(i+":"+"30--"+i+":"+"45");
             System.out.println(i+":"+"45--"+(i+1)+":"+"00");
         }
+    }
+
+    private static String[] getSuffixString() {
+        return new String[]{"00","15","30","45","00"};
     }
 }
