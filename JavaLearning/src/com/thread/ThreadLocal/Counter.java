@@ -5,6 +5,10 @@ package com.thread.ThreadLocal;
  * zhihao.guo@dianping.com
  */
 public class Counter {
+    //在每一个Thread内部都有一个ThreadLocalMap的副本
+    //获得当前Thread的ThreadLocalMap的对象,以ThreadLocal变量为key的map
+
+    //threadlocal对象获取的实际是Thread中的对象的副本
     private static ThreadLocal<Integer> counterContext = new ThreadLocal<Integer>(){
         @Override
         protected Integer initialValue() {
