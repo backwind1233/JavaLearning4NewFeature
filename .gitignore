@@ -2,6 +2,8 @@
 ### Java template
 *.class
 
+# ignore Maven generated target folders
+target
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
