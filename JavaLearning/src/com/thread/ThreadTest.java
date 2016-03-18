@@ -25,8 +25,6 @@ public class ThreadTest {
                 i++;
                 System.out.println("线程" + Thread.currentThread().getName() + "=" + i);
             }
-
         }
     }
-
 }

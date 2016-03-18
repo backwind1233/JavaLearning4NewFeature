@@ -15,5 +15,5 @@ public class ProxyDemo {
         proxyUser.sayHello();
         //java 内部的动态代理是基于"组合"来实现的
     }
-//java开发中有一条原则,多用组合,少用继承,还记得HEAD FIRST中的鸭子么,会飞的鸭子和会叫的鸭子,这两个行为就是基于组合来的
+        //java开发中有一条原则,多用组合,少用继承,还记得HEAD FIRST中的鸭子么,会飞的鸭子和会叫的鸭子,这两个行为就是基于组合来的
 }
