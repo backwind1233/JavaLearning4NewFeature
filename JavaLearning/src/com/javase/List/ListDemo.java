@@ -45,7 +45,5 @@ public class ListDemo {
         list_b_clone.removeAll(combinewithoutduplicate);
         combinewithoutduplicate.addAll(list_b_clone);
         System.out.println(combinewithoutduplicate);
-
-
     }
 }
